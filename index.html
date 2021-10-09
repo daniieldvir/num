@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch the Numbers Game</title>
+</head>
+<body onload="init()">
+    <h1>Touch the Numbers Game</h1>
+    <label id="minutes">00</label>:<label id="seconds">00</label>
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+    <div>
+        <button onclick="nextLevel(16)">Easy</button>
+        <button onclick="nextLevel(25)">Medium</button>
+        <button onclick="nextLevel(36)">Difficult</button>
+    </div>
+    
+<script src="js/main.js"></script>
+</body>
+</html>
